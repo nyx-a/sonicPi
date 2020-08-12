@@ -102,6 +102,9 @@ end
 
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+use_random_seed Time.now.to_i
+use_bpm 60
+
 cause Wave.new(
   synth:   :noise,
   min:     0.1.. 0.3,
